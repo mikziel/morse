@@ -1,3 +1,4 @@
+## morse-gba
 Simple Morse code translator for the Game Boy Advance.
 
 ![scr1](https://user-images.githubusercontent.com/99624303/154865521-aa1cfa2c-ce38-4a5f-b139-fd65f1b92849.png)
