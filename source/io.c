@@ -44,13 +44,13 @@ void gba_putc(int x, int y, unsigned char c, int color)
 
 void gba_puts(int x, int y, const char *str, int color)
 {
-    int c, gap=0;
+    int c, gap = 0;
 
     while((c = *str++) != 0)
     {
         if(c == '\n')
         {    
-            x += SCREEN_WIDTH*p_txt->gap;
+            x += SCREEN_WIDTH * p_txt->gap;
             y += p_txt->gap;  
             gap = 0;    
         }
